@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>forms_html</title>
+  </head>
+  <body>
+    <!-- <form >
+        <fieldset>
+            <legend>Login</legend>
+            <label for="name">Name</label><br>
+            <input type="text" name="" id="name" placeholder="type your name">
+            <br>
+            <br>
+            <label for="pass">Password</label><br>
+            <input type="password" name="" id="pass" placeholder="type your password ">
+            <br>
+            <br>
+            <label for="course">Course</label><br>
+            <select name="" id="course">
+                <option value="0">none</option>
+                <optgroup label="cohorts"></optgroup>
+                <option value="1">cohort 1.0</option>
+                <option value="2">cohort 2.0</option>
+                <option value="3">cohort 3.0</option>
+                <optgroup label="bootcapms">
+                    <option value="4">KODR Bootcamp</option>
+                    <option value="5">KODEX Bootcamp</option>
+                </optgroup>
+            </select>
+            <br>
+            <br>
+            <label for="review">Reviews</label>
+            <textarea id="review" cols="30" rows="3"></textarea>
+        </fieldset>
+            <button type="submit">Submit</button>
+    </form> -->
+  <h2>Students Registration Form</h2>
+    <form action="">
+      <fieldset>
+        <legend>Personal Information</legend>
+
+        <label for="name" >Name:</label>
+        <br />
+        <input type="text" id="name" placeholder="Enter your name"/> <br /><br />
+
+        <label for="pass">Password:</label>
+        <br />
+        <input type="password" id="pass" placeholder="Enter your password "/> <br /><br />
+
+        <label for="email">Email:</label>
+        <br />
+        <input type="email" id="email" placeholder="Enter your email"/> <br /><br />
+        <label for="phonenum">Phone:</label>
+        <br />
+        <input type="number" id="phonenum"placeholder="Enter your phone number"/> <br /><br />
+      </fieldset>
+      <br>
+      <br>
+      <fieldset>
+        <legend>Adress Details</legend>
+        <label for="addressline1">Addressline 1:</label>
+        <br>
+        <textarea name="" id="addressline1" rows="3"></textarea> <br> <br>
+        <label for="cities">Select your city</label>
+        <br>
+        <select name="" id="cities" aria-placeholder="select">
+            <option value="0">select</option>
+            <option value="1">Dhubri</option>
+            <option value="2">Bhopal</option>
+            <option value="3">banglore</option>
+            <option value="4">Mumbai</option>
+
+        </select>
+         <br> <br>
+        <label for="cities">Select your state</label>
+        <br>
+        <select name="" id="cities" aria-placeholder="select">
+            <option value="0">select</option>
+            <option value="1">assam</option>
+            <option value="2">MP</option>
+            <option value="3">Karnataka</option>
+            <option value="4">Maharastra</option>
+        </select>
+         <br> <br>
+        </fieldset>
+        <br> 
+        <label for="cities">Select your course</label>
+      
+        <select name="" id="cities" aria-placeholder="select">
+
+          <option value="0">select</option>
+          <optgroup label="Frontend"></optgroup>
+          
+          <option value="1">HTML</option>
+          <option value="2">CSS</option>
+          <option value="3">Javacript</option>
+          <optgroup label="Backend"></optgroup>
+            <option value="4">Node.js</option>
+            <option value="5">MongoDB</option>
+        </select>
+        <br>
+        
+        <details>
+          <summary>learn more about the coures</summary>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem repudiandae minima quos enim nemo ducimus doloribus! Maiores accusamus non numquam quasi adipisci eligendi reprehenderit quidem quos laborum laboriosam at qui similique odio unde soluta ad, quod nemo aperiam placeat sequi! Consequuntur aspernatur culpa architecto eligendi at ratione sint? At, amet.</p>
+        </details>
+       <br>
+       <button type="submit">Submit Form</button>
+    </form>
+  </body>
+</html>

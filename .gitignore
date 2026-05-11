@@ -1,0 +1,17 @@
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependency/build output
+node_modules/
+dist/
+build/
+.next/
+.cache/
+
+# Local environment files
+.env
+.env.*
+!.env.example
