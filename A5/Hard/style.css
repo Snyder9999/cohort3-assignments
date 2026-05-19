@@ -66,7 +66,8 @@ nav {
   background-color: transparent;
   border: 1px rgba(0, 0, 0, 0.5) solid;
 }
-.nav-two button:hover {
+
+.button-animation:hover {
   background-color: black;
   color: white;
 }
@@ -318,10 +319,12 @@ nav {
 .ri-arrow-right-up-line {
   font-size: 2vh;
 }
-#serve-card1 button:hover {
+.b-anime:hover{
   background-color: transparent;
   color: black;
 }
+
+
 #serve-card2 {
   background-color: #f1f6f5;
 }
@@ -639,7 +642,7 @@ nav {
   margin-top: 5%;
 }
 .prod-detail h1 {
-  font-size: 1.4vh;
+  font-size: 1.6vh;
   font-weight: 400;
   margin-bottom: 1vh;
 }
