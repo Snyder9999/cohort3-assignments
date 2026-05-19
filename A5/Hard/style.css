@@ -33,14 +33,14 @@ nav {
   gap: 20px;
 }
 .nav-one img {
-  height: 2.5rem;
+  height: 3vh;
 }
 .nav-one button {
   border-radius: 50px;
   border: none;
   background-color: #edded5;
   padding: 5px 10px;
-  font-size: 13px;
+  font-size: 10px;
   font-weight: 300;
 }
 .nav-two {
@@ -55,7 +55,9 @@ nav {
   text-decoration: none;
   color: black;
   font-weight: 300;
-  font-size: 1rem;
+  font-size: 1.4vh;
+  margin-bottom: 0;
+  padding-bottom: 0;
 }
 
 .nav-two button {
@@ -313,7 +315,7 @@ nav {
   border-radius: 50px;
   border: rgba(0, 0, 0, 1) solid 1px;
 }
-.ri-arrow-right-up-line{
+.ri-arrow-right-up-line {
   font-size: 2vh;
 }
 #serve-card1 button:hover {
@@ -568,9 +570,8 @@ nav {
   border-radius: 50px;
   border: rgba(0, 0, 0, 1) solid 1px;
 }
-.ri-arrow-right-up-line{
+.ri-arrow-right-up-line {
   color: white;
-
 }
 .blog {
   margin-top: 9%;
@@ -581,7 +582,7 @@ nav {
   text-transform: uppercase;
 }
 .page-eight {
-  height: 170%;
+  height: 140%;
   width: 100%;
 }
 .insight {
@@ -661,40 +662,86 @@ nav {
   overflow: hidden;
   /* padding: 20px; */
 }
-.P-head h1{
-    font-size: 1.4vh;
-  font-weight: 400;
+.P-head h1 {
+  font-size: 1.4vh;
+  font-weight: 300;
   margin-bottom: 1vh;
 }
-.P-head{
+.P-head {
   border-bottom: 1px solid rgba(0, 0, 0, 0.137);
   padding-bottom: 5%;
   margin-bottom: 5%;
 }
-.P-body h1,a{
-  font-size: 1.4vh;
+.P-body h1,
+a {
+  font-size: 1vh;
   font-weight: 400;
-  margin-bottom: 1vh;
+  margin-bottom: 2vh;
   text-decoration: none;
   color: black;
 }
-#P-bod button{
+#P-bod button {
+  margin-top: 2%;
   font-size: 1vh;
   color: white;
   background-color: black;
-  padding: 10px 20px;
+  padding: 15px 20px;
   border-radius: 50px;
   border: rgba(0, 0, 0, 1) solid 1px;
 }
-
+#P-bod button i {
+  font-size: 1.4vh;
+}
 .social {
   margin-top: 10%;
 }
 .social i {
-  font-size: .8vw;
+  font-size: 0.8vw;
   padding: 8px 10px;
   color: white;
   background-color: #f0f8ff;
   border-radius: 50%;
   color: black;
+}
+
+footer {
+  border-top: solid 0.1px rgba(0, 0, 0, 0.137);
+  /* background-color: red; */
+  height: 9vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+footer h1 {
+  font-size: 1vh;
+  font-weight: 300;
+}
+footer h1 span {
+  font-weight: 500;
+  text-decoration: underline;
+}
+#P-bod h1 {
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 10s;
+}
+.end {
+  white-space: pre;
+}
+.footer-animation {
+  position: relative;
+  text-decoration: none;
+}
+.footer-animation::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 1.5px;
+  bottom: 0;
+  left: 0;
+  background-color: black;
+  transform-origin: bottom left;
+  transition: all cubic-bezier(0.19, 1, 0.22, 1) 1s;
+  transform: scaleX(0);
+}
+.footer-animation:hover::after {
+  transform: scale(1);
 }
