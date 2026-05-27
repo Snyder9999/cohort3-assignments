@@ -1,0 +1,41 @@
+@font-face {
+  font-family: reckless;
+  src: url(./fonts/RecklessCondensedS-TRIAL-Book.woff);
+}
+@font-face {
+  font-family: roboto;
+  src: url(./fonts/RobotoMono-Regular.ttf);
+}
+
+.reckless {
+  font-family: reckless;
+}
+.roboto-mono{
+  font-family: roboto;
+}
+button {
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+}
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.text-underline{
+    position: relative;
+    text-decoration: none;
+}
+.text-underline::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 1.5px;
+    bottom: 0;
+    left: 0;
+    background-color: black;
+    transform-origin: bottom left;
+    transition:all cubic-bezier(0.23, 1, 0.15, 1)1s;
+    transform: scaleX(0);
+}
+.text-underline:hover::after{
+    transform: scale(1);
+}
