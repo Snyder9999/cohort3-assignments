@@ -10,19 +10,16 @@
   <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
   <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
   <link rel="stylesheet" href="style.css" />
-  <link rel="preconnect" href="https://fonts.googleapis.com" />
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="style.css" />
+  <link rel="shortcut icon" href="./favicon.ico" type="image/x-icon">
 </head>
 
 <body>
   <nav>
-    <div class="reckless flex justify-center items-center text-[#e3e3e9] bg-[#2a2857] py-2">
-      <h1 class="text-xs font-bold">FREE US SHIPPING FOR ORDERS OVER $75</h1>
+    <div class="reckless flex justify-center items-center text-[#e3e3e9] bg-[#2a2857] py-1">
+      <h1 class="text-xs">FREE US SHIPPING FOR ORDERS OVER $75</h1>
     </div>
   </nav>
-  <nav class="fixed z-50 top-10 left-4 right-4 bg-white border border-black rounded-2xl">
+  <nav class="fixed z-50 top-6 left-4 right-4 bg-white border border-black rounded-2xl">
     <div class="text-sm bottom flex justify-between items-center p-3">
       <div class="flex flex-1 md:hidden text-3xl">
         <i class="ri-menu-fill"></i>
@@ -38,7 +35,7 @@
         </h1>
         <h1 class="cursor-pointer flex gap-2">
           Reviews
-          <img src="./assets/star.svg" alt="">
+          <img src="./assets/star.svg" alt="" />
         </h1>
       </div>
       <div class="flex flex-1 justify-center">
@@ -48,13 +45,13 @@
         <h1 class="hidden md:block cursor-pointer text-underline text-xs">
           MY ACCOUNT
         </h1>
-        <h1 class="hidden md:block cursor-pointer text-underline tex-xs">
+        <h1 class="hidden md:block cursor-pointer text-underline text-xs">
           CAFE & WHOLESALE PARTNERS
         </h1>
-        <h1 class="hidden md:block cursor-pointer text-underline">
+        <h1 class="hidden md:block cursor-pointer text-underline text-xs">
           TEA JOURNAL
         </h1>
-        <img src="./assets/cart.svg" alt="" />
+        <img class="h-7" src="./assets/cart.svg" alt="" />
       </div>
     </div>
   </nav>
@@ -82,7 +79,7 @@
     <div class="absolute right-5 -top-6 cursor-pointer">
       <img src="https://www.twoleavestea.com/cdn/shop/files/Frame_727.svg?v=1770007189&width=35" alt="" />
     </div>
-    <h1 class="text-3xl md:text-6xl text-center reckless">
+    <h1 class="text-4xl md:text-6xl text-center reckless">
       A great cup starts with a <br class="md:hidden" />
       careful <br class="hidden md:block" />
       pluck - the top two <br class="md:hidden" />
@@ -94,10 +91,10 @@
     </h1>
   </section>
 
-  <section class="p-5 bg-[#FBF9EB] flex gap-5 h-140 overflow-x-auto no-scrollbar">
+  <section class="p-5 bg-[#FBF9EB] flex gap-5 h-140 overflow-x-auto no-scrollbar overflow-y-hidden">
     <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
       <div class="flex justify-between">
-        <span class="midnight bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">TEA SACHETS</span>
         <i class="ri-star-s-fill">4.71 (84)</i>
       </div>
       <div class="flex justify-center hover:scale-120 transition duration-300">
@@ -113,22 +110,22 @@
         </button>
       </div>
       <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
+        <h1 class="text-xl reckless">Organic Tropical Green Tea</h1>
+        <h1 class="text-sm">From $11.95</h1>
+        <p class="opacity-50 text-sm">
           Our Organic Tropical Green is a fruity and fun take on a classic
           green tea
         </p>
       </div>
     </div>
 
-    <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
+    <div class="bg-[#FFD884] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
       <div class="flex justify-between">
-        <span class="midnight bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
-        <i class="ri-star-s-fill">4.71 (84)</i>
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">GIFT & SAMPLERS</span>
+        <i class="ri-star-s-fill">5 (2)</i>
       </div>
-      <div class="flex justify-center hover:scale-120 transition duration-300">
-        <img
+      <div class="flex justify-center hover:scale-120 transition duration-300 overflow-hidden">
+        <img class="h-60"
           src="https://www.twoleavestea.com/cdn/shop/files/bundle-herbal-tea-trio-featured-image.webp?v=1772174356&width=600"
           alt="" />
       </div>
@@ -140,22 +137,20 @@
         </button>
       </div>
       <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
-          Our Organic Tropical Green is a fruity and fun take on a classic
-          green tea
-        </p>
+        <h1 class="text-xl reckless">Herbal Tea Trio</h1>
+        <h1 class="text-sm">$33.30</h1>
+        <p class="opacity-50">A trio of soothing herbal teas</p>
       </div>
     </div>
 
-    <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
+    <div class="bg-[#B0E8C1] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
       <div class="flex justify-between">
-        <span class="midnight bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">NAKED SACHETS</span>
         <i class="ri-star-s-fill">4.71 (84)</i>
       </div>
       <div class="flex justify-center hover:scale-120 transition duration-300">
-        <img src="https://www.twoleavestea.com/cdn/shop/files/peppermint_naked_featured.webp?v=1771580547&width=600"
+        <img class="h-60"
+          src="https://www.twoleavestea.com/cdn/shop/files/peppermint_naked_featured.webp?v=1771580547&width=600"
           alt="" />
       </div>
       <div class="flex justify-end">
@@ -166,22 +161,25 @@
         </button>
       </div>
       <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
-          Our Organic Tropical Green is a fruity and fun take on a classic
-          green tea
+        <h1 class="text-xl reckless">
+          Organic Pepperming-<br />50 Naked Tea Sachets
+        </h1>
+        <h1 class="text-sm">$21.95</h1>
+        <p class="opacity-50 text-sm">
+          Our organic Peppermint tea is made from peppermint grown in
+          Washington State.
         </p>
       </div>
     </div>
 
-    <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
+    <div class="bg-[#C1E4F8] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
       <div class="flex justify-between">
-        <span class="midnight bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
-        <i class="ri-star-s-fill">4.71 (84)</i>
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">GIFT & SAMPLERS</span>
+        <i class="ri-star-s-fill">4.85 (41)</i>
       </div>
       <div class="flex justify-center hover:scale-120 transition duration-300">
-        <img src="https://www.twoleavestea.com/cdn/shop/files/Bamboo_Tea_Chest.webp?v=1772543139&width=600" alt="" />
+        <img class="h-60" src="https://www.twoleavestea.com/cdn/shop/files/Bamboo_Tea_Chest.webp?v=1772543139&width=600"
+          alt="" />
       </div>
       <div class="flex justify-end">
         <button
@@ -191,22 +189,23 @@
         </button>
       </div>
       <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
-          Our Organic Tropical Green is a fruity and fun take on a classic
-          green tea
+        <h1 class="text-xl reckless">Classic Bamboo Tea Chest</h1>
+        <h1 class="text-sm">$42.95</h1>
+        <p class="opacity-50 text-sm">
+          This 6-slot bamboo box offers a sampling of eight sachets each of
+          six of our best selling teas.
         </p>
       </div>
     </div>
 
-    <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
+    <div class="bg-[#C0E571] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
       <div class="flex justify-between">
-        <span class="midnight bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
-        <i class="ri-star-s-fill">4.71 (84)</i>
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">LATTE MIX</span>
+        <i class="ri-star-s-fill">4.41 (22)</i>
       </div>
       <div class="flex justify-center hover:scale-120 transition duration-300">
-        <img src="https://www.twoleavestea.com/cdn/shop/files/Latte_Mix.webp?v=1771386671&width=600" alt="" />
+        <img class="h-60" src="https://www.twoleavestea.com/cdn/shop/files/Latte_Mix.webp?v=1771386671&width=600"
+          alt="" />
       </div>
       <div class="flex justify-end">
         <button
@@ -216,22 +215,24 @@
         </button>
       </div>
       <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
-          Our Organic Tropical Green is a fruity and fun take on a classic
-          green tea
+        <h1 class="text-xl reckless">Nice Matcha Tea Latte Mix
+        </h1>
+        <h1 class="text-sm">From $12.95</h1>
+        <p class="opacity-50 text-sm">
+          Our Nice Matcha is a lightly sweetened
+          powdered mix meant for making tea lattes
+          simple.
         </p>
       </div>
     </div>
 
-    <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
+    <div class="bg-[#FFCB96] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
       <div class="flex justify-between">
-        <span class="midnight bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
-        <i class="ri-star-s-fill">4.71 (84)</i>
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">LATTE MIX</span>
+        <i class="ri-star-s-fill">4.24 (17)</i>
       </div>
       <div class="flex justify-center hover:scale-120 transition duration-300">
-        <img
+        <img class="h-60"
           src="https://www.twoleavestea.com/cdn/shop/files/Latte_Mix_b400f40c-730f-4122-9058-cfc4e5bf8faf.webp?v=1771389945&width=600"
           alt="" />
       </div>
@@ -243,22 +244,24 @@
         </button>
       </div>
       <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
-          Our Organic Tropical Green is a fruity and fun take on a classic
-          green tea
+        <h1 class="text-xl reckless">Nice Chai Tea Latte Mix
+        </h1>
+        <h1 class="text-sm">From $12.95</h1>
+        <p class="opacity-50 text-sm">
+          Our Nice Chai is a not too sweet, not too
+          spicy, powdered latte mix meant for making
+          tea lattes simple.
         </p>
       </div>
     </div>
 
-    <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
+    <div class="bg-[#FFD1B8] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
       <div class="flex justify-between">
-        <span class="bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
-        <i class="ri-star-s-fill">4.71 (84)</i>
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">TEA SACHETS</span>
+        <i class="ri-star-s-fill">4.79 (108)</i>
       </div>
       <div class="flex justify-center hover:scale-120 transition duration-300">
-        <img
+        <img class="h-60"
           src="https://www.twoleavestea.com/cdn/shop/files/organic_high_mountain_chai_tea_sachet_featured.webp?v=1771578289&width=600"
           alt="" />
       </div>
@@ -270,47 +273,24 @@
         </button>
       </div>
       <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
-          Our Organic Tropical Green is a fruity and fun take on a classic
-          green tea
+        <h1 class="text-xl reckless">Organic Mountain High Chai Tea
+        </h1>
+        <h1 class="text-sm">From $11.95</h1>
+        <p class="opacity-50 text-sm">
+          An ode to our Rocky Mountain roots, our
+          organic Mountain High Chai takes your
+          tastebuds down a spice-filled ski slope.
         </p>
       </div>
     </div>
 
-    <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
+    <div class="bg-[#CCE3FF] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
       <div class="flex justify-between">
-        <span class="bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
-        <i class="ri-star-s-fill">4.71 (84)</i>
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">NAKED SACHETS</span>
+        <i class="ri-star-s-fill">4.56 (41)</i>
       </div>
       <div class="flex justify-center hover:scale-120 transition duration-300">
-        <img src="https://www.twoleavestea.com/cdn/shop/files/Naked_Tea.webp?v=1771401766&width=600" alt="" />
-      </div>
-      <div class="flex justify-end">
-        <button
-          class="flex flex-col bg-[#FBF9EB] px-2.5 border border-black rounded-md hover:bg-black hover:text-white transition-all duration-500 ease-in-out">
-          <i class="ri-add-large-line"></i>
-          <span>Add</span>
-        </button>
-      </div>
-      <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
-          Our Organic Tropical Green is a fruity and fun take on a classic
-          green tea
-        </p>
-      </div>
-    </div>
-
-    <div class="bg-[#C1EE91] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
-      <div class="flex justify-between">
-        <span class="bg-white p-1 border border-black rounded font-bold text-l">TEA SACHETS</span>
-        <i class="ri-star-s-fill">4.71 (84)</i>
-      </div>
-      <div class="flex justify-center hover:scale-120 transition duration-300">
-        <img src="https://www.twoleavestea.com/cdn/shop/files/alpine_berry_naked_featured.webp?v=1771496640&width=600"
+        <img class="h-60" src="https://www.twoleavestea.com/cdn/shop/files/Naked_Tea.webp?v=1771401766&width=600"
           alt="" />
       </div>
       <div class="flex justify-end">
@@ -321,15 +301,49 @@
         </button>
       </div>
       <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
-        <h1 class="text-xl">Organic Tropical Green Tea</h1>
-        <h1 class="text-l">From $11.95</h1>
-        <p>
-          Our Organic Tropical Green is a fruity and fun take on a classic
-          green tea
+        <h1 class="text-xl reckless">Organic Earl Grey - <br>
+          50 Naked Tea Sachets
+        </h1>
+        <h1 class="text-sm">$21.95</h1>
+        <p class="opacity-50 text-sm">
+          Earl Grey's distinctive aroma comes from
+          bergamot - a citrus fruit about the size of an
+          orange but yellow-green and slightly pear-
+          shaped.
+        </p>
+      </div>
+    </div>
+
+    <div class="bg-[#AEE0F9] h-90 min-w-[300px] p-4 rounded-xl border border-black cursor-pointer">
+      <div class="flex justify-between">
+        <span class="midnight bg-white p-1 border border-black rounded text-xl">NAKED SACHETS</span>
+        <i class="ri-star-s-fill">5 (5)</i>
+      </div>
+      <div class="flex justify-center hover:scale-120 transition duration-300">
+        <img class="h-60"
+          src="https://www.twoleavestea.com/cdn/shop/files/alpine_berry_naked_featured.webp?v=1771496640&width=600"
+          alt="" />
+      </div>
+      <div class="flex justify-end">
+        <button
+          class="flex flex-col bg-[#FBF9EB] px-2.5 border border-black rounded-md hover:bg-black hover:text-white transition-all duration-500 ease-in-out">
+          <i class="ri-add-large-line"></i>
+          <span>Add</span>
+        </button>
+      </div>
+      <div class="max-w-[290px] py-8 -mx-4 flex flex-col gap-1">
+        <h1 class="text-xl reckless">Alpine Berry - <br>
+          15 Naked Tea Sachets
+        </h1>
+        <h1 class="text-sm">From $8.95</h1>
+        <p class="opacity-50 text-sm">
+          Our signature herbal blend, Alpine Berry is a
+          caffeine-free, naturally sweet and tart tea.
         </p>
       </div>
     </div>
   </section>
+  <!-- cards end here -->
 
   <div class="flex justify-center pb-15 md:py-20 border-b-2 bg-[#FBF9EB]">
     <button
@@ -340,17 +354,20 @@
 
   <section class="flex flex-col gap-5 md:gap-20 px-5 py-15 bg-[#FBF9EB] md:pl-60 font-[Cormorant_Garamond]">
     <div class="flex flex-col gap-5">
-      <h1 class="-rotate-3 inline-block text-2xl md:text-4xl font-bold border px-1 bg-[#FF7F31] w-fit rounded-sm">
+      <h1
+        class="midnight -rotate-5 inline-block text-2xl md:text-4xl font-bold border px-1 bg-[#FF7F31] w-fit rounded-sm">
         DISCOVER
       </h1>
-      <h1 class="text-3xl md:text-5xl">
-        Let’s find a cup that fits the moment. <br class="hidden md:block" />
+      <h1 class="reckless text-3xl md:text-5xl">
+        Let’s find a cup that fits the moment. <br />
         What are you searching for?
       </h1>
-      <input class="p-4 border rounded-xl text-2xl md:w-100" type="text" placeholder="green tea" />
+      <input class="reckless p-4 border rounded-xl text-2xl md:w-100" type="text" placeholder="green tea" />
     </div>
-    <div>OR EXPLORE BY VIBE...</div>
-    <div class="flex md:-mt-15 gap-3 flex-wrap md:text-3xl text-xl cursor-pointer">
+    <div>
+      <p class="font-sans text-sm">OR EXPLORE BY VIBE...</p>
+    </div>
+    <div class="reckless flex md:-mt-15 gap-3 flex-wrap text-3xl cursor-pointer">
       <span class="px-5 py-3 bg-[#DAEAFF] hover:bg-[#A2C9FC] border rounded-2xl">
         A Sweet Treat
       </span>
@@ -406,34 +423,35 @@
         src="https://www.twoleavestea.com/cdn/shop/files/From_farm_to_kettle_c340e18e-6549-4712-b2b1-b64a827e6338.svg?v=1773116502&width=240.0"
         alt="" />
     </div>
-    <h1 class="text-2xl md:text-4xl bg-[#DAEAFF] -rotate-3 px-1 border rounded-l font-bold">
-      OUR ORIGINS
+    <h1 class="midnight -rotate-5 inline-block text-5xl font-bold border p-1 bg-[#A2C9FC] w-fit rounded-lg">
+      OUR ORIGIN
     </h1>
-    <h1 class="text-white font-bold text-6xl md:text-9xl text-center">
+    <h1 class="midnight text-white text-8xl md:text-9xl text-center">
       BORN IN <br class="hidden md:block" />
       COLORADO
     </h1>
-    <p class="px-12 text-white text-2xl md:text-5xl text-center font-[Cormorant_Garamond]">
-      Our founder, Richard, started Two Leaves and a Bud in pursuit of a truly
-      great cup. Two decades later, that same care and curiosity guide
-      everything we make.
+    <p class="reckless px-12 text-white text-3xl md:text-6xl text-center">
+      Our founder, Richard, started <br class="md:hidden"> Two Leaves and a Bud in <br class="md:hidden"> pursuit <br
+        class="hidden md:block"> of a truly
+      great cup.<br class="md:hidden"> Two decades later, that same<br class="md:hidden"> care and <br
+        class="hidden md:block"> curiosity guide <br class="md:hidden">everything we make.
     </p>
-    <div class="flex text-white text-sm px-10 md:gap-20 text-center">
+    <div class="flex text-white text-sm px-10 md:gap-20 text-center gap-10">
       <div class="flex flex-col items-center gap-1">
         <img class="w-20"
           src="https://www.twoleavestea.com/cdn/shop/files/Quality_without_pretense.svg?v=1773116402&width=180.0"
           alt="" />
-        <p>QUALITY, WITHOUT PRETENSE</p>
+        <p class="roboto-mono font-bold">QUALITY, <br class="md:hidden">WITHOUT <br> PRETENSE</p>
       </div>
       <div class="flex flex-col items-center gap-1">
         <img class="w-20" src="https://www.twoleavestea.com/cdn/shop/files/care_for_ppl_1.svg?v=1773116330&width=180.0"
           alt="" />
-        <p>CARE FOR PEOPLE & PLANET</p>
+        <p class="roboto-mono font-bold">CARE FOR <br class="md:hidden"> PEOPLE & <br> PLANET</p>
       </div>
       <div class="flex flex-col items-center gap-1">
         <img class="w-20"
           src="https://www.twoleavestea.com/cdn/shop/files/transparent_sourcing.svg?v=1773116421&width=122" alt="" />
-        <p>TRANSPARENT SOURCING</p>
+        <p class="roboto-mono font-bold">TRANSPARENT <br> SOURCING</p>
       </div>
     </div>
     <button class="hover:bg-[#2A2857] hover:text-white text-xl bg-white h-12 w-90 md:w-50 rounded-3xl">
@@ -441,108 +459,122 @@
     </button>
   </section>
 
-  <section class="pt-15 px-5 md:flex md:flex-col md:gap-3 md:pl-80">
-    <div class="bg-[#73BC25] inline-block px-1 text-3xl -rotate-3 border rounded font-bold w-fit md:text-5xl">
-      REVIEWS
+  <section class="pt-5 px-5 md:flex md:flex-col md:gap-3 md:pl-80 ">
+    <div class="midnight bg-[#73BC25] inline-block px-1 text-5xl -rotate-5 border rounded w-fit md:text-5xl my-8">
+      <h1>REVIEWS</h1>
     </div>
-    <div class="text-6xl hidden md:block font-[Cormorant_Garamond]">
-      Loved by tea people everywhere. <br />
-      Here's what they're saying.
+    <div class=" text-6xl hidden md:block ">
+      <p class="reckless">
+        Loved by tea people <i>everywhere.</i> <br />
+        Here's what they're saying.
+      </p>
     </div>
   </section>
 
-  <section
-    class="py-5 pb-15 md:py-15 px-5 flex gap-4 overflow-x-auto no-scrollbar font-[Cormorant_Garamond] cursor-pointer">
-    <div class="flex flex-col p-5 h-100 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between">
-      <div>
-        <h1 class="text-center text-3xl pt-15">
+  <section class="py-5 pb-15 md:py-15 px-5 flex gap-4 overflow-x-auto no-scrollbar cursor]-pointer">
+    <div class="flex flex-col p-5 h-115 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between border">
+      <div class="flex flex-col items-center justify-center text-center flex-1">
+        <h1 class="mb-5 text-3xl reckless">
           "The right amount <br />
-          of spice" <br />
-          <span class="text-xl">Angelina R.</span>
+          of spice"
         </h1>
+        <p class="opacity-50 text-sm">
+          Angelina R.
+        </p>
       </div>
       <div class="flex justify-between items-center bg-[#EA6D44] p-4 border rounded-2xl">
         <img class="border-r"
           src="https://www.twoleavestea.com/cdn/shop/files/Organic-Mtn-High-Chai-R15-angle_square_KO_1_2.png?v=1770086173&width=57"
           alt="" />
-        <span class="text-xs text-white">ORGANIC <br />
-          MOUNTAIN <br />
-          HIGH CHAI</span>
-        <button class="bg-white p-3 rounded-4xl text-xl">Shop</button>
+        <span class="roboto-mono m-2 text-xs text-white">ORGANIC MOUNTAIN HIGH CHAI</span>
+        <button class="bg-white py-2 px-4 rounded-4xl text-xl border">Shop</button>
       </div>
     </div>
-    <div class="flex flex-col p-5 h-100 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between">
-      <div>
-        <h1 class="text-center text-3xl pt-15">
-          "The right amount <br />
-          of spice" <br />
-          <span class="text-xl">Angelina R.</span>
+    <div class="flex flex-col p-5 h-115 min-w-[280px] bg-[#ABDF74] rounded-2xl justify-between border">
+      <div class="flex flex-col items-center justify-center text-center flex-1">
+        <h1 class="mb-5 text-2xl reckless">
+          "This drink is incredibly
+          refreshing, especially
+          when served over ice. It's
+          light, crisp, and instantly
+          cooling, making it
+          perfect for a quick
+          refresh any time of day."
+
         </h1>
+        <p class="opacity-50 text-sm">
+          Jacob K.
+        </p>
+      </div>
+      <div class="flex justify-between items-center bg-[#73BC25] p-4 border rounded-2xl">
+        <img class="border-r "
+          src="https://www.twoleavestea.com/cdn/shop/files/Organic-Mtn-High-Chai-R15-angle_square_KO_1.png?v=1770085601&width=57"
+          alt="" />
+        <span class="roboto-mono m-3 text-xs text-white">Organic Matcha Mint</span>
+        <button class="bg-white py-3 px-4 rounded-4xl text-xl border">Shop</button>
+      </div>
+    </div>
+    <div class="flex flex-col p-5 h-115 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between border">
+      <div class="flex flex-col items-center justify-center text-center flex-1">
+        <h1 class="mb-5 text-3xl reckless">
+          "The right amount <br />
+          of spice"
+        </h1>
+        <p class="opacity-50 text-sm">
+          Angelina R.
+        </p>
       </div>
       <div class="flex justify-between items-center bg-[#EA6D44] p-4 border rounded-2xl">
         <img class="border-r"
           src="https://www.twoleavestea.com/cdn/shop/files/Organic-Mtn-High-Chai-R15-angle_square_KO_1_2.png?v=1770086173&width=57"
           alt="" />
-        <span class="text-xs text-white">ORGANIC <br />
+        <span class="roboto-mono m-3 text-xs text-white">ORGANIC <br />
           MOUNTAIN <br />
           HIGH CHAI</span>
-        <button class="bg-white p-3 rounded-4xl text-xl">Shop</button>
+        <button class="bg-white py-2 px-4 rounded-4xl text-xl border">Shop</button>
       </div>
     </div>
-    <div class="flex flex-col p-5 h-100 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between">
-      <div>
-        <h1 class="text-center text-3xl pt-15">
+    <div class="flex flex-col p-5 h-115 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between border">
+      <div class="flex flex-col items-center justify-center text-center flex-1">
+        <h1 class="mb-5 text-3xl reckless">
           "The right amount <br />
-          of spice" <br />
-          <span class="text-xl">Angelina R.</span>
+          of spice"
         </h1>
+        <p class="opacity-50 text-sm">
+          Angelina R.
+        </p>
       </div>
       <div class="flex justify-between items-center bg-[#EA6D44] p-4 border rounded-2xl">
         <img class="border-r"
           src="https://www.twoleavestea.com/cdn/shop/files/Organic-Mtn-High-Chai-R15-angle_square_KO_1_2.png?v=1770086173&width=57"
           alt="" />
-        <span class="text-xs text-white">ORGANIC <br />
+        <span class="roboto-mono m-3 text-xs text-white">ORGANIC <br />
           MOUNTAIN <br />
           HIGH CHAI</span>
-        <button class="bg-white p-3 rounded-4xl text-xl">Shop</button>
+        <button class="bg-white py-2 px-4 rounded-4xl text-xl border">Shop</button>
       </div>
     </div>
-    <div class="flex flex-col p-5 h-100 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between">
-      <div>
-        <h1 class="text-center text-3xl pt-15">
+    <div class="flex flex-col p-5 h-115 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between border">
+      <div class="flex flex-col items-center justify-center text-center flex-1">
+        <h1 class="mb-5 text-3xl reckless">
           "The right amount <br />
-          of spice" <br />
-          <span class="text-xl">Angelina R.</span>
+          of spice"
         </h1>
+        <p class="opacity-50 text-sm">
+          Angelina R.
+        </p>
       </div>
       <div class="flex justify-between items-center bg-[#EA6D44] p-4 border rounded-2xl">
         <img class="border-r"
           src="https://www.twoleavestea.com/cdn/shop/files/Organic-Mtn-High-Chai-R15-angle_square_KO_1_2.png?v=1770086173&width=57"
           alt="" />
-        <span class="text-xs text-white">ORGANIC <br />
+        <span class="roboto-mono m-3 text-xs text-white">ORGANIC <br />
           MOUNTAIN <br />
           HIGH CHAI</span>
-        <button class="bg-white p-3 rounded-4xl text-xl">Shop</button>
+        <button class="bg-white py-2 px-4 rounded-4xl text-xl border">Shop</button>
       </div>
     </div>
-    <div class="flex flex-col p-5 h-100 min-w-[280px] bg-[#F5AF8A] rounded-2xl justify-between">
-      <div>
-        <h1 class="text-center text-3xl pt-15">
-          "The right amount <br />
-          of spice" <br />
-          <span class="text-xl">Angelina R.</span>
-        </h1>
-      </div>
-      <div class="flex justify-between items-center bg-[#EA6D44] p-4 border rounded-2xl">
-        <img class="border-r"
-          src="https://www.twoleavestea.com/cdn/shop/files/Organic-Mtn-High-Chai-R15-angle_square_KO_1_2.png?v=1770086173&width=57"
-          alt="" />
-        <span class="text-xs text-white">ORGANIC <br />
-          MOUNTAIN <br />
-          HIGH CHAI</span>
-        <button class="bg-white p-3 rounded-4xl text-xl">Shop</button>
-      </div>
-    </div>
+
   </section>
 
   <section class="md:flex md:max-h-[600px]">
@@ -554,7 +586,7 @@
 
     <div
       class="md:w-1/2 flex flex-col justify-center items-center md:items-start text-center md:text-left py-10 px-5 md:px-20 gap-10 bg-[#2A2857] text-white">
-      <h1 class="text-4xl md:text-6xl font-[Cormorant_Garamond]">
+      <h1 class="text-6xl reckless">
         Our Cafe & <br />
         Wholesale Partners
       </h1>
@@ -577,14 +609,14 @@
         src="https://www.twoleavestea.com/cdn/shop/files/designed_for_ease.svg?v=1773116538&width=300.0"
         alt="image not found" />
     </div>
-    <h1 class="-rotate-3 bg-[#FFCB96] font-[Bebas_Neue] border rounded text-4xl md:text-6xl font-bold px-1">
+    <h1 class="-rotate-3 bg-[#FFCB96] border rounded text-4xl md:text-6xl font-bold px-1 midnight">
       OUR LATTES
     </h1>
-    <p class="text-6xl md:text-7xl font-[Bebas_Neue] font-bold text-white">
+    <p class="text-6xl md:text-7xl  text-white midnight">
       BRISTA BLENDS <br class="block md:hidden" />
       FOR EVERY MOOD
     </p>
-    <p class="text-white text-sm md:font-bold md:text-l mb-30">
+    <p class="text-white text-sm md:font-bold md:text-l mb-30 roboto-mono">
       (NO TRAINING REQUIRED)
     </p>
     <div class="bg-[#FFCB96] rounded-2xl flex md:flex-row flex-col h-150 md:max-h-[500px] w-full px-10">
@@ -594,14 +626,14 @@
       </div>
       <div class="flex flex-col flex-1 items-center md:items-start py-20 gap-5">
         <h1
-          class="-rotate-3 bg-[#F09f54] font-[Bebas_Neue] border rounded text-4xl md:text-6xl font-bold px-1 w-fit h-fit">
+          class="-rotate-3 bg-[#F09f54]  border rounded text-4xl md:text-6xl font-bold px-1 w-fit h-fit midnight">
           NICE
         </h1>
-        <h1 class="text-4xl md:text-6xl font-[Cormorant_Garamond]">
+        <h1 class="text-4xl md:text-6xl reckless">
           Chai <br />
           Latte Mix
         </h1>
-        <p class="text-l">
+        <p class="text-l font-sans space">
           Our Nice Chai is a not too sweet, not too spicy,<br class="hidden md:block" />
           powdered latte mix meant for making tea lattes
           <br class="hidden md:block" />
@@ -616,16 +648,16 @@
   </section>
 
   <footer
-    class="flex flex-col p-5 gap-8 md:flex-row md:justify-between md:px-70 md:py-10 bg-[#C0DBFF] font-[Cormorant_Garamond]">
+    class="flex flex-col p-5 gap-8 md:flex-row md:justify-between md:px-70 md:py-10 bg-[#C0DBFF]">
     <div class="flex flex-col gap-5">
-      <h1 class="text-2xl md:text-4xl">STEP WITH US</h1>
-      <h1 class="text-xl md:text-3xl">
+      <h1 class="text-3xl md:text-5xl midnight">STEP WITH US</h1>
+      <h1 class="text-2xl md:text-4xl reckless">
         Get news stories, brewing tips, and special offers
         <br class="hidden md:block" />
         straight to your inbox.
       </h1>
       <div class="flex flex-col md:flex-row gap-3">
-        <input class="text-xl border rounded-xl p-2 bg-white w-full" type="text" placeholder="name@email.com" />
+        <input class="reckless text-xl border rounded-xl p-2 bg-white w-full" type="text" placeholder="name@email.com" />
 
         <button
           class="bg-[#2A2857] text-white text-xl md:text-2xl px-10 py-2 rounded-3xl hover:bg-[#FFB500] hover:text-black">
@@ -638,6 +670,68 @@
       <i class="ri-instagram-fill w-12 h-12 border rounded-full flex items-center justify-center hover:bg-white"></i>
       <i class="ri-linkedin-fill w-12 h-12 border rounded-full flex items-center justify-center hover:bg-white"></i>
     </div>
+   
+  </footer>
+  <footer class="p-5 bg-[#C0DBFF] "> 
+    <div class="bg-[#2A2857] rounded-2xl py-1 px-4 text-white flex w-full ">
+      <div class="w-70">
+        <h1 class="reckless text-4xl mb-2">Tea varities</h1>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Whole Leaf Tea Sachets</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Pure Matcha</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Tea Lattes</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Iced tea</h2>
+      </div>
+      <div class="w-70">
+        <h1 class="reckless text-4xl mb-2">Collections</h1>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Matcha</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Chai</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Organic Tea</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Black Tea</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Green Tea</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Herbal Tea</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Naked Tea Sachets</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Caffeine-Free</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Gift & Samplers</h2>
+      </div>
+      <div class="w-70">
+        <h1 class="reckless text-4xl mb-2">Lattes</h1>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Nice Matcha</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Barista Matcha</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Nice Chai</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Barista Chai</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Two Roots Golden Latte</h2>
+      </div>
+      <div class="w-70">
+        <h1 class="reckless text-4xl mb-2">Learn</h1>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Our Story</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Our Spirit</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">FAQ</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Reviews</h2>
+      </div>
+      <div class="w-70">
+        <h1 class="reckless text-4xl mb-2">Tea Journal</h1>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">All Articles</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Tea 101</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Recipes</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Sustainability</h2>
+      </div>
+      <div class="w-70">
+        <h1 class="reckless text-4xl mb-2">Support</h1>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Contact</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">My Account</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Loyal-Tea</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Shipping & Returns</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Privacy Policy</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Terms & Conditions</h2>
+      </div>
+      <div class="w-70">
+        <h1 class="reckless text-4xl mb-2">Cafe & Wholesale Partners
+        </h1>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Cafe & Wholesale Partners</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Wholesale Login</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Product and Media Files</h2>
+        <h2 class="text-underline-w w-fit opacity-50 text-xl">Displays & Starter Kits</h2>
+    </div>
   </footer>
   <footer class="bg-[#C0DBFF] py-5">
     <div class="flex justify-center">
@@ -646,7 +740,7 @@
     </div>
     <img class="object-cover h-50 md:h-100"
       src="https://www.twoleavestea.com/cdn/shop/files/footer-extended_1.png?v=1771834074" alt="" />
-    <h1 class="flex justify-center text-center text-sm tracking-wider">
+    <h1 class="roboto-mono flex justify-center text-center text-sm tracking-wider">
       © TWO LEAVES AND A BUD 2026 <br />
       SITE BY MANUFACTOR
     </h1>
@@ -654,4 +748,3 @@
 </body>
 
 </html>
-<!-- the end -->
